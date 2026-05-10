@@ -32,14 +32,14 @@ sys.stdout.reconfigure(encoding="utf-8", line_buffering=True)
 # ══════════════════════════════════════════════════════════════════
 
 PERSONAL_INFO = {
-    "nin":      "",                     # رقم التعريف الوطني – 18 digits
-    "cni":      "",                     # رقم بطاقة الهوية  – 9 digits
-    "phone":    "",                     # رقم الهاتف (starts with 0, e.g., 05...)
-    "email":    "",                     # البريد الإلكتروني (optional, leave "" to skip)
-    "password": "",                     # كلمة المرور
-    "wilaya":   "سطيف",                 # اسم الولاية بالعربية
-    "commune":  "سطيف",                 # اسم البلدية بالعربية
-    "payment":  "cash",                 # "cash"  |  "tpe"  |  "online"
+    "nin":      "109970899031320005",                     # رقم التعريف الوطني – 18 digits
+    "cni":      "102903385",                     # رقم بطاقة الهوية  – 9 digits
+    "phone":    "0654992342",                     # رقم الهاتف (starts with 0, e.g., 05...)
+    "email":    "bahaacostaluca@gmail.com",                     # البريد الإلكتروني (optional, leave "" to skip)
+    "password": "Bahae2019@",                     # كلمة المرور
+    "wilaya":   "المدية",                 # اسم الولاية بالعربية
+    "commune":  "بن شكاو",                 # اسم البلدية بالعربية
+    "payment":  "tpe",                 # "cash"  |  "tpe"  |  "online"
 }
 
 # ══════════════════════════════════════════════════════════════════
@@ -53,7 +53,7 @@ PERSONAL_CHAT_ID = ""                   # e.g., "987654321"
 #  Config
 # ══════════════════════════════════════════════════════════════════
 
-TARGET_WILAYA_CODE = "19"          # e.g., 19 for Sétif
+TARGET_WILAYA_CODE = "26"          # e.g., 19 for Sétif
 CHECK_INTERVAL     = 2             # seconds between API polls
 API_URL            = "https://adhahi.dz/api/v1/public/wilaya-quotas"
 REGISTER_URL       = "https://adhahi.dz/register"
